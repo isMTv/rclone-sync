@@ -1,6 +1,8 @@
 ## About
-Simple batch script for rclone with a convenient menu and the ability to configure through the configuration file. 
+Simple batch script for rclone with a convenient menu and the ability to configure through the configuration file.
+
 ![screenshot](https://github.com/Unix-MTv/rclone-sync/blob/master/rclone-sync.png)
+
 ## How-to
 rclone-sync/<br />
 ├── app<br />
