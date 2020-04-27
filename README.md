@@ -4,4 +4,4 @@ Simple batch script for rclone with a convenient menu and the ability to configu
 ![screenshot](https://github.com/Unix-MTv/rclone-sync/blob/master/rclone-sync.png)
 
 ## How-to:
-<p>rclone-sync/<br />├── app<br />│ ├── cecho.exe<br />│ └── rclone.exe<br />├── conf<br />│ ├── exclude-from.txt<br />│ ├── rclone.conf<br />│ └── rclone-sync.conf<br />├── log<br />│ └── log.txt<br />├── rclone-sync.bat<br />└── sync</p>
+<p><em>rclone-sync/</em><br /><em>├── app</em><br /><em>│ ├── cecho.exe</em><br /><em>│ └── rclone.exe</em><br /><em>├── conf</em><br /><em>│ ├── exclude-from.txt</em><br /><em>│ ├── rclone.conf</em><br /><em>│ └── rclone-sync.conf</em><br /><em>├── log</em><br /><em>│ └── log.txt</em><br /><em>├── rclone-sync.bat</em><br /><em>└── sync</em></p>
