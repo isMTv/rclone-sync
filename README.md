@@ -8,7 +8,7 @@ Simple batch script for rclone with a convenient menu and the ability to configu
 ##### ├── app
 ##### │   ├── cecho.exe
 ##### │   └── rclone.exe
-##### ├── conf<br />
+##### ├── conf
 ##### │   ├── exclude-from.txt
 ##### │   ├── rclone.conf
 ##### │   └── rclone-sync.conf
