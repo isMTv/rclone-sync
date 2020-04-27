@@ -4,7 +4,6 @@ MODE 115,25
 TITLE Script - Rsync for cloud storage:
 SET SCRIPT_VERSION=1.0
 
-
 :: Основные настройки;
 CD /d "%~dp0"
 SET ch="app\cecho.exe"
