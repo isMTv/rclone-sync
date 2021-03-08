@@ -47,7 +47,7 @@ echo.
 echo.
 %ch% {0b}  [4]{#} = {0e}Информация о хранилище{#};{\n #}
 echo.
-%ch% {0b}  [0]{#} = {0c}Выйти.{\n #}
+%ch% {0b}  [q]{#} = {0c}Выйти.{\n #}
 %ch%												{08}^| Версия %SCRIPT_VERSION%{\n #}
 echo.
 set /p choice=--- Ваш выбор:
@@ -55,7 +55,7 @@ if '%choice%'=='1' goto GO_SYNC_1
 if '%choice%'=='2' goto GO_SYNC_2
 if '%choice%'=='3' goto GO_CONFIGURE_STORAGE
 if '%choice%'=='4' goto GO_STORAGE_ABOUT
-if '%choice%'=='0' goto END
+if '%choice%'=='q' goto END
 if "%choice%"=="" ( endlocal & goto :RETURN
  ) else ( %ch% - {0c}Неправильный выбор!{\n #}
 		TIMEOUT /T 2 >nul & endlocal & goto :RETURN )
